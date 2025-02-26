@@ -1,0 +1,72 @@
+body {
+    background: #1F202F;
+    font-family: 'AvenirNext-Regular';
+    font-weight: normal;
+    font-style: normal;
+    color: #fff;
+    font-size: 1.125em;
+    line-height: normal;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+a{
+    color: #fff;
+    text-decoration: underline;
+}
+a:hover{
+    color: #ddd;
+    text-decoration: underline;
+}
+.btn-back {
+    background: url(../images/ico-back.png) no-repeat left center;
+    padding: 5px 0 5px 34px;
+    color: #A8ADBA;
+    float: left;
+    margin: 8px 0 0;
+}
+.img_placeholder {
+    text-align: center;
+    padding: 10px 0;
+}
+.content {
+    padding: 80px;
+    text-align: center;
+}
+h2 {
+    font-size: 1.75em;
+    line-height: 36px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    padding: 0 5%;
+}
+p {
+    font-size: 1em;
+    line-height: 22px;
+    margin: 0.5em 0 1.5em;
+    padding: 0 5%;
+}
+
+@media screen and (min-width:767px){
+    .container {
+        width:680px;
+    }
+}
+
+@media screen and (max-width:767px){
+    .container {
+        width:100%;
+    }
+    .content {
+        padding: 8% 3%;
+    }
+    h2 {
+        padding: 0 2%;
+    }
+}
+
+@font-face {
+    font-family: 'AvenirNext-Regular';
+    src: local('AvenirNext-Regular'), url('AvenirNext-Regular.ttf') format('truetype');
+}
